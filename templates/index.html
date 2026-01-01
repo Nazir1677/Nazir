@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <h1>Enter Your Name and Age</h1>
+    
+    <form method="post">
+        <input type="text" name="name" placeholder="Your name" required >
+        <input type="number" age="age" placeholder="Your age" required >
+        <br><br>
+        <button type="submit">submit</buttom>
+        </form>
+</body>
+</html>
