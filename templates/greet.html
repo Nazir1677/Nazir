@@ -1,15 +1,12 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Greeting</title>
+    <title>Guessing Game</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Hello, {{ username }}! 👏</h1>
-    
-    <h2> You are {{ userage }} years old.😁</h2>
-    <p>Welcome to your first Flask form.</p>
-    <a href="/">Go back</a>
-    <a href="/about">Next</a>
+    <h1>🎮 Nazir`s Guessing Game</h1>
+    <hr>
+    {% block content %}{% endblock %}
 </body>
 </html>
